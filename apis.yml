@@ -1,22 +1,71 @@
 aid: roboto-games
 name: Roboto Games
-description: Roboto Games is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Roboto Games is an independent video game development studio building
+  Stormforge, an open-world survival crafting game where players craft, build,
+  fight, and harness epic storms to survive in a magical fantasy world. The
+  studio was surfaced as a portfolio company of a16z and added to the API
+  Evangelist network for enrichment. As a consumer game studio, Roboto Games
+  publishes a marketing website, a careers page, and a studio blog, but exposes
+  no public developer API, SDK, or programmatic surface — its player-facing
+  experience is delivered through native game clients (Steam) and community
+  channels (Discord, YouTube, Twitch) rather than an HTTP API. This profile
+  captures the studio's public identity and web properties; no API artifacts are
+  produced because none are published.
 url: https://raw.githubusercontent.com/api-evangelist/roboto-games/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.robotogames.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video Games
+- Game Development
+- Game Studio
+- Survival Crafting
+- Entertainment
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/roboto-games-domain-security.yml
+- type: Website
+  url: https://www.robotogames.com
+- type: About
+  url: https://www.robotogames.com/about
+- type: Blog
+  url: https://www.robotogames.com/blog
+- type: Careers
+  url: https://www.robotogames.com/careers
+- type: TermsOfService
+  url: https://www.robotogames.com/terms
+- type: PrivacyPolicy
+  url: https://www.robotogames.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
